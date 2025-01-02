@@ -61,8 +61,8 @@ public class InventoryManagementSystem extends JFrame {
 			}
         	connection = DriverManager.getConnection(
         		    "jdbc:mysql://localhost:3306/mydb",  // Change if your database name is different
-        		    "root@localhost",
-                "Gauritaneja@2019" // Replace with your MySQL password
+        		    "username",
+                "Password" // Replace with your MySQL password
             );
             executeSQLFiles(connection);
         } catch (SQLException e) {
